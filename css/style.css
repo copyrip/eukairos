@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Scorpius";
+  font-weight: bold;
+  src: url("../scorpius.otf") format("opentype");
+}
+
+body {
+  padding:10mm;
+  background-image:url("../bg.jpeg");
+}
+
+h1 {
+  font-family:"Scorpius", cursive;
+  font-weight:bold;
+  font-size:42pt;
+
+  -webkit-text-stroke: 2px black;
+  text-stroke: 2px black;
+
+}
+
+
