@@ -104,11 +104,31 @@ p,ul {
 }
 
 #places ul {
+  margin-top:50px;
+  margin-bottom:50px;
+  display:flex;
   text-align:center;
 }
   
 #places ul li {
-  display:inline-block;
+  font-size:14pt;
+  line-height:16pt;
+  flex:1;
   
   text-align:center;
+}
+
+/* discourse link */
+#discourse {
+  padding:5px 0px 5px 0;
+  text-align:center;
+  
+  top:0;
+  width:100%;
+  background-color:#ed6b47;
+  color:#fff;
+
+  font-family:"FluxischElse-Bold", cursive;
+  font-weight:bold;
+  font-size:14pt;
 }
