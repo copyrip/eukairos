@@ -1,3 +1,6 @@
+b {
+  font-weight:bolder;
+}
 @font-face {
   font-family: "Scorpius";
   font-weight: bold;
@@ -22,6 +25,9 @@
   src: url("../fonts/FluxischElse-Regular.woff") format("woff");
 }
 
+li {
+  margin-bottom:30px;
+}
 
 html {
   height: 100%;
@@ -70,13 +76,44 @@ h3 {
   margin-bottom:0px;
 }
 
+h4 {
+  margin-top:3px;
+  font-size:14pt;
+}
+
+h4.spot {
+  margin-top:3px;
+  margin-bottom:5px;
+  font-size:12pt;
+  font-style:italic;
+}
+
+h5 {
+  margin:5px 0 5px 0;
+}
+
+#live {
+  position:fixed;
+  background-color:white;
+  top:30px;
+  right:30px;
+  border-radius:15px;
+  padding:10px;
+}
+
+#intro {
+  font-size:16pt;
+  width:60%;
+}
+
 .day {
+  width:49%;
   margin:30px;
 }
 
 #wrap {
   padding:18px;
-  position: relative;
+  position:relative;
 }
 
 #wrap:before {
